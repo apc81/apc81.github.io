@@ -1,5 +1,6 @@
 body {
   background: #827FB2
+  
 }
 
 .Montserrat {
@@ -10,9 +11,12 @@ body {
   font-family: 'Raleway',cursive;
 }
 #anacolicchio {
-  background-color: purple;
+  background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
 a:hover {
 background-color: white;
 }
