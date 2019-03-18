@@ -1,6 +1,30 @@
 .article1,
 .article2,
-.article3 { display: grid;}
-.article3 {grid-template-columns: 1fr 1fr 1fr;}
-.article3 img {max-width: 100%;}
-.article3 div {padding:10px;}
+.article3 {
+  display: grid;
+}
+
+h2 {color:#99CC99;}
+
+body {
+  background: #99CC99;
+
+}
+
+.article3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article3 img {
+  max-width: 100%;
+}
+
+.article3 div {
+  padding: 10px;
+}
+
+nav ul {list-style: none; margin: 0; padding:0; display:grid;}
+
+
+nav ul {grid-template-columns: 1fr 1fr 1fr}
+nav ul li

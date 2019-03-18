@@ -3,33 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Topic of my site</title>
-    <<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 780px)">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 781px)">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body class ="generalbackground secondarycolor">
     <main>
-      <header class="primarycolor"> Site Topic Title </header>
-        <section>
+      <header class="primarycolor"> Ana's Vegan Cooking </header>
+      <nav class="primarycolor">
+        <ul>
+          <li><a href="#section1"> Recipes </a></li>
+          <li><a href="#section2"> Blog </a></li>
+          <li><a href="#section2"> Photo Gallery </a></li>
+        </ul>
+      </nav>
+        <section id="section1" >
           <h2>Section title</h2>
             <article class="article1">
               <div>1</div>
               <div>1</div>
             </article>
-        </section>
-        <section>
+        </section id="section1">
+        <section id="section2">
           <h2>Section Title</h2>
             <article class="article2">
               <div>1</div>
               <div>1</div>
             </article>
-        </section>
+        </section id="section2">
+        <section id="section3">
           <h2>Section title</h2>
             <article class="article3">
               <div><img src="https://placehold.it/400x400" alt="gallery"></div>
               <div><img src="https://placehold.it/400x400" alt="gallery"></div>
               <div><img src="https://placehold.it/400x400" alt="gallery"></div>
 
-            </article>
-        </section>
+            </article >
+        </section id="section3">
           <footer>Copyright 2019 Me @UM</footer>
     </main>
 
