@@ -1,1 +1,3 @@
 .article1 { grid-template-columns: 1fr 2fr;}
+.news {grid-template-columns: 5fr 5fr 5fr}
+.mainnavigation {grid-template-columns: 5fr 5fr 5fr 5fr}

@@ -1,14 +1,26 @@
+.grid {display:grid;}
+
+.margin
 .article1,
 .article2,
-.article3 {
+.article3,
+.article4 {
   display: grid;
 }
 
-h2 {color:#99CC99;}
+img {max-width: 100%;}
+
+.news div {border:1px solid red; margin: 5px}
+
+h2 {color:#99CC98;}
 
 body {
   background: #99CC99;
 
+}
+
+a {
+  text-decoration: none;
 }
 
 .article3 {
