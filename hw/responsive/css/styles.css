@@ -10,19 +10,22 @@
 
 img {max-width: 100%;}
 
-.news div {border:1px solid red; margin: 5px}
-
-h2 {color:#99CC98;}
-
-body {
-  background: #99CC99;
-
-}
 
 a {
   text-decoration: none;
 }
+a{
+  border: solid;
+  border-width: medium;
+  padding:10px;
+  color:black;
+  font-style: normal;
+  font-family: 'Roboto', serif;
 
+}
+.primarycolor {
+  font-family: 'Nixie One',cursive;
+}
 .article3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -35,8 +38,69 @@ a {
   padding: 10px;
 }
 
+h1 {
+  font-family: "Nixie One", cursive;
+  margin:10px;
+}
+
 nav ul {list-style: none; margin: 0; padding:0; display:grid;}
 
 
 nav ul {grid-template-columns: 1fr 1fr 1fr}
 nav ul li
+
+body, html {
+  padding: 0;
+  margin: 0
+}
+.border {border: 1px solid #000000;}
+.margin10 {
+  margin: 10px;
+}
+
+main {
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  background: #99CC99;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  min-height: 100px;
+}
+.rightcolumn {
+  display: block;
+  min-height: 100px;
+  width: 570px;
+  float: right;
+  padding: 10px;
+}
+.leftcolumn {
+  display: block;
+  min-height: 100px;
+  width: 300px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.article2 {grid-template-columns: 5fr 5fr  }
+.article2 {
+  margin:10px;
+
+}
+.article1 {
+  margin: 10px;
+}
+.article4 {
+  margin:10px;
+}

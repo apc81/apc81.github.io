@@ -1,3 +1,54 @@
 .article1 { grid-template-columns: 1fr 2fr;}
 .news {grid-template-columns: 5fr 5fr 5fr}
 .mainnavigation {grid-template-columns: 5fr 5fr 5fr 5fr}
+.margin10 {
+  margin: 10px;
+}
+
+.largslide {max-width: 100%}
+.smallslide {display:none;}
+body {
+  background: #666666;}
+
+main {
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  background: #FFFFFF;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  min-height: 100px;
+}
+.rightcolumn {
+  display: block;
+  min-height: 100px;
+  width: 570px;
+  float: right;
+  padding: 10px;
+}
+.leftcolumn {
+  display: block;
+  min-height: 100px;
+  width: 300px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+.article3 div{
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 5px;
+
+}
