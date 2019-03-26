@@ -30,6 +30,11 @@ a{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.article4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
 .article3 img {
   max-width: 100%;
 }

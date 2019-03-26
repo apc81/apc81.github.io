@@ -37,3 +37,10 @@
   }
 .article3{ grid-template-columns: 5fr 5fr 5fr;
 }
+
+.article1{grid-auto-columns: 5fr;}
+.article2 {grid-auto-columns: 5fr 5fr 5fr;}
+.article3 {grid-auto-columns: 5fr 5fr 5fr;}
+.article4 {grid-auto-columns: 5fr 5fr 5fr;
+
+max-width: 100%;}
