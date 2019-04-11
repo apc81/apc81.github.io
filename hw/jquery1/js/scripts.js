@@ -50,7 +50,6 @@ if(step <= 5) {
   }
 });
 
-
 //Previous
 
 
